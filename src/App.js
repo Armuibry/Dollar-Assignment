@@ -5,6 +5,8 @@ import ShowItems from "./components/ShowItems";
 import Slider from "./components/Slider";
 import appContext from "./context/appContext";
 import data from './data.json'
+import SignIn from "./SignnIn-SignUp/SignIn";
+import SignUp from "./SignnIn-SignUp/SignUp";
 
 function App() {
   const [dropdown, setDropdown] = useState(false);
@@ -31,6 +33,8 @@ function App() {
         <Categories />
         <Slider />
         <ShowItems />
+        <SignIn/>
+        <SignUp/>
 
       </div>
     </appContext.Provider>
